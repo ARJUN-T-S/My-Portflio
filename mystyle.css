@@ -49,23 +49,23 @@ html{
     list-style: none;
     display: inline-flex;
     justify-content: space-around;
-    gap:10%;
+    gap:8%;
     padding-top: 9px;
 }
 .head2 a{
     text-decoration: none;
     color: white;
-    font-size: 18px;
+    font-size: 15px;
     transition: 0.3s all;
 }
 .home1 img{
-    padding-bottom: 3px;
+    padding-bottom: 2px;
     width: 18px;
     justify-content: left;
 }
 .home1{
     display: inline-flex;
-    gap: 4px;
+    gap:4px;
 }
 .about1 img{
     padding-bottom: 3px;
@@ -293,7 +293,7 @@ html{
   font-family: myFont;
 }
 .skillicon{
- width: 90%;
+ width: 80%;
  margin-left: 5%;
  margin-right: 3%;
  margin-top: 2%;
@@ -309,58 +309,93 @@ html{
   margin-right: 10%;
 }
 .pyth{
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border: 3px solid rgb(201, 166, 254);
   padding: 3px;
 }
 .c{
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border: 3px solid rgb(201, 166, 254);
   padding: 3px;
 }
 .cpp{
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border: 3px solid rgb(201, 166, 254);
   padding: 3px;
 }
 .java{
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border: 3px solid rgb(201, 166, 254);
   padding: 3px;
 }
 .html{
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border: 3px solid rgb(201, 166, 254);
   padding: 3px;
 }
 .script{
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border: 3px solid rgb(201, 166, 254);
   padding: 3px;
 }
 .css{
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border: 3px solid rgb(201, 166, 254);
   padding: 3px;
 
 }
 .rjs{
-width: 100px;
-height: 100px;
+width: 80px;
+height: 80px;
 border: 3px solid rgb(201, 166, 254);
 padding: 3px;
 }
 
-.skillicon ul li img:hover{
-  width: 105px;
-  height: 105px;
+.skillicon ul li .pyth:hover{
+  width: 90px;
+  height: 90px;
+  border: 3px solid rgb(66, 111, 75);
+}
+.skillicon ul li .c:hover{
+  width: 90px;
+  height: 90px;
+  border: 3px solid rgb(66, 111, 75);
+}
+.skillicon ul li .cpp:hover{
+  width: 90px;
+  height: 90px;
+  border: 3px solid rgb(66, 111, 75);
+}
+.skillicon ul li .java:hover{
+  width: 90px;
+  height: 90px;
+  border: 3px solid rgb(66, 111, 75);
+}
+.skillicon ul li .script:hover{
+  width: 90px;
+  height: 90px;
+  border: 3px solid rgb(66, 111, 75);
+}
+.skillicon ul li .html:hover{
+  width: 90px;
+  height: 90px;
+  border: 3px solid rgb(66, 111, 75);
+}
+.skillicon ul li .css:hover{
+  width: 90px;
+  height: 90px;
+  border: 3px solid rgb(66, 111, 75);
+}
+.skillicon ul li .rjs:hover{
+  width: 90px;
+  height: 90px;
   border: 3px solid rgb(66, 111, 75);
 }
 .projectstab{
@@ -387,7 +422,7 @@ padding: 3px;
 }
 .project11{
   margin-top: 2%;
-  width: 30%;
+  width: 28%;
   height: 500px;
   border: 3px white solid;
   float: left;
@@ -395,7 +430,7 @@ padding: 3px;
 }
 .project12{
   margin-top: 2%;
-  width: 29%;
+  width: 27%;
   height: 500px;
   border: 3px white solid;
   float: left;
@@ -403,12 +438,12 @@ padding: 3px;
 }
 .project13{
   margin-top: 2%;
-  width: 30%;
+  width: 28%;
   height: 500px;
   border: 3px white solid;
-  float: right;
+  float: left;
   margin-left: 2.5%;
-  margin-right: 2.5%;
+  margin-right: 3%;
 }
 .project11 img{
   width: 350px;
