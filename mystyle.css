@@ -339,11 +339,11 @@ html {
 }
 
 .skillicon {
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 3%;
+  width: 70%;
+  margin-left: 15%;
+  margin-right:5%;
   margin-top: 2%;
-  height: 400px;
+  height: 300px;
   border: 2px solid;
 }
 
@@ -357,70 +357,71 @@ html {
 }
 
 .pyth {
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   border: 3px solid rgb(201, 166, 254);
-  padding: 3px;
+  padding: 2px;
 }
 
 .c {
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   border: 3px solid rgb(201, 166, 254);
-  padding: 3px;
+  padding: 2px;
 }
 
 .cpp {
-  width: 100px;
-  height: 100px;
-  border: 3px solid rgb(201, 166, 254);
-  padding: 3px;
+  width: 75px;
+  height: 75px;
+  border: 2px solid rgb(201, 166, 254);
+  padding: 2px;
 }
 
 .java {
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   border: 3px solid rgb(201, 166, 254);
-  padding: 3px;
+  padding: 2px;
 }
 
 .html {
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   border: 3px solid rgb(201, 166, 254);
   padding: 3px;
 }
 
 .script {
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   border: 3px solid rgb(201, 166, 254);
   padding: 3px;
 }
 
 .css {
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   border: 3px solid rgb(201, 166, 254);
   padding: 3px;
 
 }
 
 .rjs {
-  width: 100px;
-  height: 100px;
+  width: 75px;
+  height: 75px;
   border: 3px solid rgb(201, 166, 254);
-  padding: 3px;
+  padding: 1px;
 }
 
 .skillicon ul li img:hover {
-  width: 105px;
-  height: 105px;
+  width: 78px;
+  height: 78px;
   border: 3px solid rgb(66, 111, 75);
+  transition:0.3s ease-in-out;
 }
 
 .projectstab {
-  height: 700px;
+  height: 1200px;
   width: 100%;
   margin: 0%;
   background-color: #2a2151;
@@ -437,106 +438,116 @@ html {
   float: right;
   color: white;
 }
-
-.projectstab h1 {
-  color: white;
+.projectstab h1{
   text-align: center;
-  font-family: myFont;
+  font-size: 25px;
+  color: white;
   text-decoration: double underline;
 }
-
-.project11 {
+.project11{
+  width: 80%;
   margin-top: 2%;
-  width: 30%;
-  height: 500px;
-  border: 3px white solid;
-  float: left;
-  margin-left: 2.5%;
+  border: #fefefe 2px solid;
+  margin-left: 10%;
+  margin-right: 8%;
+  height: 300px;
+  border-radius: 2%;
 }
-
-.project12 {
-  margin-top: 2%;
-  width: 29%;
-  height: 500px;
-  border: 3px white solid;
-  float: left;
+.p1txt{
+  float:left;
+  width: 56%;
   margin-left: 2%;
+  margin-right: 2%;
+  font-size: 25px;
+  color: white;
+  font-family: MyFont;
 }
-
-.project13 {
-  margin-top: 2%;
-  width: 30%;
-  height: 500px;
-  border: 3px white solid;
+.p1img{
+  width: 36%;
+  margin-left: 2%;
+  color: white;
+  font-family: MyFont;
   float: right;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
+  padding-top:1.5%;
 }
-
-.project11 img {
-  width: 350px;
+.p1img img{
+  width:250px;
   height: 250px;
+  border-radius: 50%;
+  border:greenyellow 2px solid;
+  margin-top: 2%;
   margin-left: 10%;
-  margin-top: 4%;
-  margin-right: 2%;
 }
-
-.project11 h1 {
-  font-size: 20px;
-  text-decoration: underline;
+.project12{
+  width: 80%;
+  margin-top: 2%;
+  border: #fefefe 2px solid;
+  margin-left: 10%;
+  margin-right: 8%;
+  height: 300px;
+  border-radius: 2%;
 }
-
-.project11 p {
-  font-size: 18px;
-  color: white;
+.p2txt{
+  float:right;
+  width: 56%;
   margin-left: 2%;
   margin-right: 2%;
-}
-
-.project12 img {
-  width: 350px;
-  height: 250px;
-  margin-left: 10%;
-  margin-top: 4%;
-  margin-right: 2%;
-}
-
-.project12 h1 {
-  font-size: 20px;
-  text-decoration: underline;
-}
-
-.project12 p {
-  font-size: 18px;
+  font-size: 25px;
   color: white;
+  font-family: MyFont;
+}
+.p2img{
+  width: 36%;
+  margin-left: 2%;
+  color: white;
+  font-family: MyFont;
+  float: left;
+}
+.p2img img{
+  width:250px;
+  height: 250px;
+  border-radius: 50%;
+  border:greenyellow 2px solid;
+  margin-top: 2%;
+  margin-left: 10%;
+}
+.project13{
+  width: 80%;
+  margin-top: 2%;
+  border: #fefefe 2px solid;
+  margin-left: 10%;
+  margin-right: 8%;
+  height: 300px;
+  border-radius: 2%;
+}
+.p3txt{
+  float:left;
+  width: 56%;
   margin-left: 2%;
   margin-right: 2%;
-}
-
-.project13 img {
-  width: 350px;
-  height: 250px;
-  margin-left: 10%;
-  margin-top: 4%;
-  margin-right: 2%;
-}
-
-.project13 h1 {
-  font-size: 20px;
-  text-decoration: underline;
-}
-
-.project13 p {
-  font-size: 18px;
+  font-size: 25px;
   color: white;
-  margin-left: 2%;
-  margin-right: 2%;
+  font-family: MyFont;
 }
-
+.p3img{
+  width: 36%;
+  margin-left: 2%;
+  color: white;
+  font-family: MyFont;
+  float: right;
+}
+.p3img img{
+  width:250px;
+  height: 250px;
+  border-radius: 50%;
+  border:greenyellow 2px solid;
+  margin-top: 2%;
+  margin-left: 10%;
+}
 .contactstab {
   width: 100%;
   margin: 0%;
-  height: 350px;
+  height: 180px;
   background-color: #2a2151;
 }
 
@@ -559,8 +570,9 @@ html {
 }
 
 .mycontact {
-  margin-top: 5%;
-  margin-left: 25%;
+  margin-top: 2%;
+  margin-left: 35%;
+  margin-bottom: 5%;
 }
 
 .mycontact ul {
@@ -576,15 +588,15 @@ html {
 }
 
 .mycontact ul li img {
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   border: #fefefe 3px solid;
 }
 
 .mycontact ul li p {
   color: white;
-  font-size: 30px;
+  font-size: 15px;
 }
 
 /* Media Queries */
